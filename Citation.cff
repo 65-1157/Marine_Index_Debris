@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Floating-debris FDI anomalies in Ilha Grande Bay, Brazil: code, protocol, logs and results"
+authors:
+  - family-names: "Ferreira Marques, Penteado, Correa"
+    given-names: "Andre, Miguel, Pedro"
+    affiliation: "Escola Politécnica, Universidade de São Paulo"
+    orcid: "https://orcid.org/0000-0003-4110-9398"
+license: MIT
+repository-code: "https://github.com/65-1157/Marine_Index_Debris"
+keywords: [marine debris, floating debris index, Sentinel-2, CBERS-4A, GCOM-C, SDG 14.1.1]
+version: "1.0.0"
+date-released: "2026-09-25"
