@@ -1,0 +1,171 @@
+{
+ "code_version": "phase2-v1",
+ "s2_date": "2024-09-12",
+ "cbers_date": "2024-09-14",
+ "gap_days": 2,
+ "cbers_item": "CBERS_4A_WPM_20240914_199_142_L4",
+ "sgli_file": null,
+ "n_cbers_items": 1,
+ "n_water_px": 10802515,
+ "fdi_p99": 0.014037931337952614,
+ "n_candidates": 108123,
+ "n_background": 20000,
+ "cbers": {
+  "n_cand_valid": 35187,
+  "n_cand_total": 108123,
+  "n_bg_valid": 3959,
+  "n_bg_total": 20000,
+  "raw_zero_threshold": {
+   "p_cand": 0.10157160314889022,
+   "p_bg": 0.006819904016165698,
+   "gap": 0.09475169913272452,
+   "lr": 14.893406550609496
+  },
+  "nir_refl_mean": {
+   "cand": 0.09567753507909631,
+   "bg": 0.08232899663621865
+  },
+  "deglint_reflectance": {
+   "p_cand": 0.5068349106203995,
+   "p_bg": 0.10027784794139934,
+   "gap": 0.4065570626790002,
+   "lr": 5.054305821526857,
+   "auc": 0.7560330586912993,
+   "n_bins": 17.0
+  },
+  "deglint_dn_sensitivity": {
+   "p_cand": 0.5718305055844488,
+   "p_bg": 0.1209901490275322,
+   "gap": 0.4508403565569166,
+   "lr": 4.726256725696937,
+   "auc": 0.7848623641709394,
+   "n_bins": 17.0
+  },
+  "bootstrap": {
+   "block_125px": {
+    "n_reps": 300,
+    "gap_ci": [
+     0.15727980351400284,
+     0.589714434544426
+    ],
+    "lr_ci": [
+     2.568598429643884,
+     6.891981683398264
+    ],
+    "auc_ci": [
+     0.47303486388333676,
+     0.8339187947024997
+    ],
+    "n_cand_blocks": 112
+   },
+   "block_62px": {
+    "n_reps": 300,
+    "gap_ci": [
+     0.24156135350289543,
+     0.5615364582361891
+    ],
+    "lr_ci": [
+     3.4134039239661083,
+     6.604570581479079
+    ],
+    "auc_ci": [
+     0.6143080053440054,
+     0.8242125162884946
+    ],
+    "n_cand_blocks": 285
+   },
+   "block_250px": {
+    "n_reps": 300,
+    "gap_ci": [
+     0.08199884022657507,
+     0.6648630051973667
+    ],
+    "lr_ci": [
+     1.818692432984507,
+     7.641392521459579
+    ],
+    "auc_ci": [
+     0.33784394144655544,
+     0.8538180554194712
+    ],
+    "n_cand_blocks": 46
+   }
+  },
+  "footprint_shares": [
+   {
+    "col_from": 0,
+    "cand_share": 0.38648576158634146,
+    "bg_share": 0.8929,
+    "cand_valid": 0.0031348712549057146,
+    "bg_valid": 0.12061821032590436
+   },
+   {
+    "col_from": 701,
+    "cand_share": 0.4787972956725211,
+    "bg_share": 0.0928,
+    "cand_valid": 0.3958160288976028,
+    "bg_valid": 0.818426724137931
+   },
+   {
+    "col_from": 1403,
+    "cand_share": 0.1347169427411374,
+    "bg_share": 0.0143,
+    "cand_valid": 0.9999313469724015,
+    "bg_valid": 1.0
+   },
+   {
+    "col_from": 2105,
+    "cand_share": 0.0,
+    "bg_share": 0.0,
+    "cand_valid": null,
+    "bg_valid": null
+   },
+   {
+    "col_from": 2806,
+    "cand_share": 0.0,
+    "bg_share": 0.0,
+    "cand_valid": null,
+    "bg_valid": null
+   },
+   {
+    "col_from": 3508,
+    "cand_share": 0.0,
+    "bg_share": 0.0,
+    "cand_valid": null,
+    "bg_valid": null
+   },
+   {
+    "col_from": 4210,
+    "cand_share": 0.0,
+    "bg_share": 0.0,
+    "cand_valid": null,
+    "bg_valid": null
+   }
+  ],
+  "footprint_standardised_raw": {
+   "p_cand": 0.10157160314889022,
+   "p_bg": 0.024186300790458134,
+   "gap": 0.07738530235843208,
+   "lr": 4.199550978418402,
+   "cand_coverage": 1.0,
+   "n_bins": 2
+  }
+ },
+ "sgli": null,
+ "fused": {
+  "s2_cbers_point": 0.8348282974995461,
+  "s2_cbers_conservative": 0.7197779409156464
+ },
+ "params": {
+  "COL_BIN": 100,
+  "MIN_PER_BIN": 5,
+  "FPR_PCT": 90,
+  "BLOCK_PX": 125,
+  "BOOT_B": 300,
+  "BOOT_SEED": 0,
+  "P0": 0.5,
+  "S2_TOP_PCT": 99,
+  "N_BACKGROUND_SAMPLES": 20000
+ },
+ "wording": "floating marine-debris/macroplastic aggregation candidates; no ground truth"
+}

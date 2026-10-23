@@ -1,0 +1,91 @@
+{
+ "s2_date": "2024-09-12",
+ "cbers_date": "2024-09-14",
+ "gap_days": 2,
+ "by_band_by_class": {
+  "weak": {
+   "land": {
+    "n_cand": 9929,
+    "n_bg": 4634,
+    "n_cells": 41,
+    "auc": 0.4382142857142857,
+    "auc_ci": [
+     0.3195704524064378,
+     0.662472882686365
+    ]
+   },
+   "cloud": {
+    "n_cand": 4,
+    "n_bg": 4358,
+    "n_cells": 0,
+    "auc": null,
+    "note": "fewer than 5 eligible cells"
+   },
+   "other": {
+    "n_cand": 968,
+    "n_bg": 10580,
+    "n_cells": 3,
+    "auc": null,
+    "note": "fewer than 5 eligible cells"
+   }
+  },
+  "mid": {
+   "land": {
+    "n_cand": 1196,
+    "n_bg": 4634,
+    "n_cells": 46,
+    "auc": 0.8015532863512153,
+    "auc_ci": [
+     0.7481646478048738,
+     0.8472266362375173
+    ]
+   },
+   "cloud": {
+    "n_cand": 1,
+    "n_bg": 4358,
+    "n_cells": 0,
+    "auc": null,
+    "note": "fewer than 5 eligible cells"
+   },
+   "other": {
+    "n_cand": 144,
+    "n_bg": 10580,
+    "n_cells": 8,
+    "auc": 0.7125714285714285,
+    "auc_ci": [
+     0.5843248071773709,
+     0.8639299836629364
+    ]
+   }
+  },
+  "strong": {
+   "land": {
+    "n_cand": 4772,
+    "n_bg": 4634,
+    "n_cells": 55,
+    "auc": 0.9084635167300484,
+    "auc_ci": [
+     0.8812059804298596,
+     0.9321049438809617
+    ]
+   },
+   "cloud": {
+    "n_cand": 10,
+    "n_bg": 4358,
+    "n_cells": 1,
+    "auc": null,
+    "note": "fewer than 5 eligible cells"
+   },
+   "other": {
+    "n_cand": 261,
+    "n_bg": 10580,
+    "n_cells": 16,
+    "auc": 0.6322009816584861,
+    "auc_ci": [
+     0.5511659761156611,
+     0.763945483601258
+    ]
+   }
+  }
+ }
+}

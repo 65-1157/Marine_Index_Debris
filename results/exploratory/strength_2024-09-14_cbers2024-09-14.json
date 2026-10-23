@@ -1,0 +1,113 @@
+{
+ "code_version": "phase2-cell22-v1",
+ "s2_date": "2024-09-14",
+ "cbers_date": "2024-09-14",
+ "gap_days": 0,
+ "cbers_item": "CBERS_4A_WPM_20240914_199_142_L4",
+ "sun_elev_deg": 55.4446,
+ "sun_zenith_deg": 34.5554,
+ "note_glint": "nadir-view offset from specular geometry ~ sun zenith (smaller = higher glint risk)",
+ "fdi_p99": 0.030893104150891304,
+ "n_water_px": 14379328,
+ "fdi_edges": [
+  0.014,
+  0.0225,
+  0.0309
+ ],
+ "window_shape": [
+  6193,
+  4912
+ ],
+ "n_s2_cells_1km": 1864,
+ "bg_oversample_valid": 54421,
+ "results": {
+  "bands": {
+   "weak": {
+    "name": "weak",
+    "n_in_band": 8262564,
+    "n_cand_valid": 14838,
+    "n_cells": 565,
+    "n_cand_used": 11804,
+    "auc": 0.4717517996001518,
+    "auc_ci": [
+     0.46386343479388603,
+     0.4793005093935681
+    ]
+   },
+   "mid": {
+    "name": "mid",
+    "n_in_band": 1858385,
+    "n_cand_valid": 16938,
+    "n_cells": 150,
+    "n_cand_used": 3981,
+    "auc": 0.25072075188836995,
+    "auc_ci": [
+     0.20811705928216026,
+     0.29688155930694843
+    ]
+   },
+   "strong": {
+    "name": "strong",
+    "n_in_band": 143656,
+    "n_cand_valid": 19967,
+    "n_cells": 237,
+    "n_cand_used": 9637,
+    "auc": 0.779576638863601,
+    "auc_ci": [
+     0.7370153483159284,
+     0.8209026651058972
+    ]
+   }
+  },
+  "strong_band_by_min_distance_to_nonwater": {
+   ">=200m": {
+    "share_strong_cand_within": 0.5744979215705914,
+    "share_bg_within": 0.18498373789529776,
+    "n_cand": 8496,
+    "n_cells": 60,
+    "auc": 0.38870035193564606,
+    "auc_ci": [
+     0.25570728163417705,
+     0.5566141050642816
+    ]
+   },
+   ">=500m": {
+    "share_strong_cand_within": 0.6632443531827515,
+    "share_bg_within": 0.36599841972767866,
+    "n_cand": 6724,
+    "n_cells": 32,
+    "auc": 0.519971721456345,
+    "auc_ci": [
+     0.4715673213696557,
+     0.5712696424718897
+    ]
+   },
+   ">=1000m": {
+    "share_strong_cand_within": 0.8367306054990735,
+    "share_bg_within": 0.5180904430275077,
+    "n_cand": 3260,
+    "n_cells": 18,
+    "auc": 0.5307786633966891,
+    "auc_ci": [
+     0.47778188959170004,
+     0.5869271650987167
+    ]
+   }
+  }
+ },
+ "params": {
+  "N_PER_BAND": 30000,
+  "N_BG_OVER": 100000,
+  "BAND_SEED": 7,
+  "CELL_M": 1000.0,
+  "MIN_C": 5,
+  "MIN_B": 5,
+  "CELL_BOOT_B": 2000,
+  "DIST_CUTS_M": [
+   200,
+   500,
+   1000
+  ]
+ },
+ "wording": "floating marine-debris/macroplastic aggregation candidates; no ground truth"
+}

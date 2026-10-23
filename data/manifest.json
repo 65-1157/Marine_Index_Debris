@@ -1,0 +1,86 @@
+{
+ "created": "2026-10-23",
+ "sentinel2": "COPERNICUS/S2_SR_HARMONIZED (Google Earth Engine)",
+ "cbers4a_catalog": "https://data.inpe.br/bdc/stac/v1/",
+ "gcom_c_sgli": "JAXA G-Portal",
+ "confirmed_dates": {
+  "2023-05-03": {
+   "cbers_scene": "CBERS_4A_WPM_20230502_200_142_L4",
+   "gap_days": 1
+  },
+  "2024-08-15": {
+   "cbers_scene": "CBERS_4A_WPM_20240814_199_142_L4",
+   "gap_days": 1
+  },
+  "2025-03-13": {
+   "cbers_scene": "CBERS_4A_WPM_20250314_200_142_L4",
+   "gap_days": 1
+  },
+  "2025-06-16": {
+   "cbers_scene": "CBERS_4A_WPM_20250615_200_142_L4",
+   "gap_days": 1
+  },
+  "2025-12-23": {
+   "cbers_scene": "CBERS_4A_WPM_20251223_199_142_L4",
+   "gap_days": 0
+  }
+ },
+ "frozen_code_sha256": null,
+ "deviations": [
+  "D1",
+  "D1",
+  "D1",
+  "D2",
+  "D3",
+  "D4",
+  "D5",
+  "D6"
+ ],
+ "sgli_files": [
+  {
+   "file": "GC1SG1_202305031256A27514_L2SG_NWLRK_3001.h5",
+   "sha256": "1aaf3f208703c3eafb65e3bf2f7120beae96421ab1899f4240dde559d98935ea",
+   "bytes": 15080104
+  },
+  {
+   "file": "GC1SG1_202307071235D26814_L2SG_NWLRQ_3001.h5",
+   "sha256": "06cd0cc3c89355a6864e9eefed6f7795c950c59a6145a8a33b0731bee0f00ff2",
+   "bytes": 310025731
+  },
+  {
+   "file": "GC1SG1_202309081307H27914_L2SG_NWLRQ_3001.h5",
+   "sha256": "d2df2714e1ba935b7a18ae1224d541bd26994d66b998bcfb018b4fa800185e85",
+   "bytes": 127508694
+  },
+  {
+   "file": "GC1SG1_202402101302Q27814_L2SG_NWLRQ_3001.h5",
+   "sha256": "e317f1e8f3f9f7e84ab354d5d1449b79aa9b36f68c55db91f6f236031b9d09f9",
+   "bytes": 199021932
+  },
+  {
+   "file": "GC1SG1_202406141251F27514_L2SG_NWLRQ_3002.h5",
+   "sha256": "cb2ae7c0951eb01f4b5c65589181da0654d4e46cb22f74c5193fb58ebde2aae9",
+   "bytes": 275424442
+  },
+  {
+   "file": "GC1SG1_202503131249D27514_L2SG_NWLRQ_3002.h5",
+   "sha256": "a924c100930dec24cbf57f73a3e1263c9117d98a4f6f2da2c11735653f97d63e",
+   "bytes": 161918431
+  },
+  {
+   "file": "GC1SG1_202505201250F27514_L2SG_NWLRQ_3002.h5",
+   "sha256": "3bae232a224ab39b9f448340ad8ac9324d5e56c2a575e2ae028052500541c11f",
+   "bytes": 218122685
+  },
+  {
+   "file": "GC1SG1_202506161236D27014_L2SG_NWLRQ_3002.h5",
+   "sha256": "49dab46dcaefa840b2494383a646c03f7e13c2470d1c4310fc0a95e224f8f1f1",
+   "bytes": 304494875
+  },
+  {
+   "file": "GC1SG1_202506191256V27714_L2SG_NWLRQ_3002.h5",
+   "sha256": "372d0127c092fccdd67bbe04033b2212fd4cbd0655e6e8b2835f32c42c25091f",
+   "bytes": 169619587
+  }
+ ]
+}

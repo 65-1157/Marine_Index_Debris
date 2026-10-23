@@ -1,0 +1,65 @@
+{
+ "definition": "top-1% of SCL-water FDI per date; ours w=(833-740)/(1610-740), paper w=(833-665)/(1610-665); both x10, '+' sign per Author Correction",
+ "overlap": {
+  "2024-09-09": {
+   "n_water": 16178088,
+   "thr_ours": 0.032479310344827594,
+   "thr_paper": 0.04855555555555563,
+   "n_top_ours": 161786,
+   "n_top_paper": 161782,
+   "overlap_of_ours": 0.8535781835263867,
+   "jaccard": 0.7445746235260499,
+   "pearson_fdi": 0.9757322926514232
+  },
+  "2024-09-14": {
+   "n_water": 14195864,
+   "thr_ours": 0.030868965517241373,
+   "thr_paper": 0.0528,
+   "n_top_ours": 141962,
+   "n_top_paper": 141974,
+   "overlap_of_ours": 0.8569898987052873,
+   "jaccard": 0.7497103699869359,
+   "pearson_fdi": 0.9745017695482283
+  },
+  "2024-09-12": {
+   "n_water": 10683833,
+   "thr_ours": 0.014037931034482759,
+   "thr_paper": 0.023933333333333334,
+   "n_top_ours": 106890,
+   "n_top_paper": 106901,
+   "overlap_of_ours": 0.7602020769014876,
+   "jaccard": 0.6131152241328575,
+   "pearson_fdi": 0.9642464490142915
+  },
+  "2024-08-08": {
+   "n_water": 10249587,
+   "thr_ours": 0.01628620689655173,
+   "thr_paper": 0.028555555555555553,
+   "n_top_ours": 102564,
+   "n_top_paper": 102687,
+   "overlap_of_ours": 0.7992180492180492,
+   "jaccard": 0.6649172615184945,
+   "pearson_fdi": 0.9694389505913336
+  },
+  "2024-05-07": {
+   "n_water": 18792094,
+   "thr_ours": 0.0039724137931034485,
+   "thr_paper": 0.006322222222222222,
+   "n_top_ours": 187939,
+   "n_top_paper": 187974,
+   "overlap_of_ours": 0.7823815174072438,
+   "jaccard": 0.6424523644117043,
+   "pearson_fdi": 0.963884051367209
+  },
+  "2024-02-05": {
+   "n_water": 6751426,
+   "thr_ours": 0.0180301724137931,
+   "thr_paper": 0.0232,
+   "n_top_ours": 67515,
+   "n_top_paper": 67545,
+   "overlap_of_ours": 0.7902243945789824,
+   "jaccard": 0.6529593185489793,
+   "pearson_fdi": 0.95299706047031
+  }
+ }
+}

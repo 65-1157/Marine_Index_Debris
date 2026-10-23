@@ -1,0 +1,9 @@
+{
+ "spearman_rho": 0.7999999999999999,
+ "spearman_exact_p_onesided": 0.06666666666666667,
+ "wls_slope": 2.605546344969619,
+ "wls_slope_se": 1.6291886737841375,
+ "wls_p_twosided": 0.2080566189851556,
+ "pearson_r": 0.776557849282545,
+ "pearson_exact_p_onesided": 0.1
+}
